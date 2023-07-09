@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+aside{
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+#options a {
+  color: #000000ac;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 500;
+  text-decoration: none;
+
+  margin-right: 7px;
+}
+
+#options a:hover {
+  color: #1332d1;
+  transition: ease-in-out 0.5s;
+}
+
+#headline {
+  display: flex;
+  flex-direction: column;
+  margin-left: 76px;
+  margin-top: 65px;
+}
+
+#headline h1 {
+  color: #3751fe;
+  font-family: Open Sans;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+#headline h2 {
+  color: #000000ac;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 13px;
+}
+
+label {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #3751fe;
+  margin-top: 8px;
+}
+
+input {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #00000072;
+  border-radius: 12px;
+  width: 313.97px;
+  height: 41.31px;
+  padding-left: 1rem;
+}
+
+#form {
+  margin-top: 25px;
+  margin-left: 76px;
+}
+
+#myCheckbox {
+  width: 14.46px;
+  height: 13.43px;
+  border: 1px solid #00000040;
+  border-radius: 4px;
+}
+
+#check {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000ac;
+  margin-top: 8px;
+}
+
+#forgot {
+  color: #0000007e;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-left: 90px;
+}
+
+#bottomline{
+    margin-top: 8px;
+    margin-left: 76px;
+}
+
+button{
+    background-color: #3751FE;
+    padding: 17px 38px 16px 38px;
+    font-family: Roboto;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.03rem;
+    color: #ffffff;
+
+    margin-left: 76px;
+    margin-top: 15px;
+}
+
+#login{
+    padding: 17px 38px 16px 38px;
+    border: #3751FE 1px solid;
+    font-family: Roboto;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #3751FE;
+    margin-left: 15px;
+}
+
+#man{
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
